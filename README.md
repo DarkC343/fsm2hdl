@@ -15,6 +15,10 @@ cd build
 cmake ..
 make -j && make install
 ```
+### Dependencies
+
+* Qt > 5
+* CMake > 3
 
 ### Windows
 #### Qt Creator >= 5
