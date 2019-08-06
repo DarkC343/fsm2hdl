@@ -4,10 +4,10 @@
 
 **fsm2hdl** is a free tool for making auto-generated Verilog HDL sources from FSM desgins. This tool is written in Qt5/C++. Future inhancements like visual diagram editor will be added to the project soon. Currently, this version is a console-based application.
 
-Building
+##Building
 =============
-###Linux
-####CMake
+### Linux
+#### CMake
 ```
 git clone git@github.com:DarkC343/fsm2hdl.git
 cd fsm2hdl
@@ -16,8 +16,9 @@ cd build
 cmake ..
 make -j && make install
 ```
-###Windows
-####Qt Creator >= 5
+
+### Windows
+#### Qt Creator >= 5
 Open `CMakeLists.txt` file in Qt creator. Select your desired kit and do `Build > Run CMake` and then `Build > Run`
 
 Example
