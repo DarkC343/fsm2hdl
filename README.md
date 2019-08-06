@@ -1,5 +1,5 @@
 # Introduction
-<p align="center"><img src="https://drive.google.com/uc?export=view&id=17xO6xSDjbnIhD3X6uNdKvsIHJ1J0DEoY"></p>
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1GkYwBsoyH1tT6OgE6Rtti-d0xwxdJqNE"></p>
 <br />
 
 **fsm2hdl** is a free tool for making auto-generated Verilog HDL sources from FSM desgins. This tool is written in Qt5/C++. Future inhancements like visual diagram editor will be added to the project soon. Currently, this version is a console-based application.
