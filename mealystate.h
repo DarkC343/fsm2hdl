@@ -6,8 +6,13 @@
 class MealyState : public QObject
 {
     Q_OBJECT
+    QString m_name;
+    MealyState() {}
 public:
-    explicit MealyState(QObject *parent = nullptr);
+    explicit MealyState(const QString &name);
+
+    QString name() const;
+    void setName(const QString &name);
 
 signals:
 

@@ -7,6 +7,6 @@ set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5Core)
 
-add_executable(${PROJECT_NAME} "main.cpp" "state.cpp" "fsm.cpp")
+add_executable(${PROJECT_NAME} "main.cpp" "fsm.cpp" "mealyfsm.cpp" "moorefsm.cpp" "mealystate.cpp" "moorestate.cpp")
 
 target_link_libraries(${PROJECT_NAME} Qt5::Core)
